@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analisis Kompleksitas Algoritma (TugasBesar)</title>
+    <link rel="stylesheet" href="styleakanya.css">
+</head>
+<body>
+    <div class="keseluruhanbody">
+        <!-- header halaman -->
+        <div class="navigasibar">
+            <ul class="ul-kataNavBar">
+                <li class="li-kataNavBar1"> 
+                    <a href="AKAtubes.html">Home</a>
+                </li>
+                <li class="li-kataNavBar2"> 
+                    <a href="beforejalankanprogram.html">Jalankan Program</a>
+                </li>
+                <li class="li-kataNavBar3">  
+                    <a href="about.html">About</a>
+                </li>
+            </ul>
+        </div>
+        <!-- mulai border -->
+        <div class="div-kotakapp">
+            <div class="judul-kotak">Searching dan Sorting data</div>
+            
+            <h2 class="h2-pilih">
+                Pilih metode searching
+            </h2> 
+            <div class="pilihan-metode">
+                <label><input type="radio" name="metodefind" value="FindMax"> FindMax</label>
+                <label><input type="radio" name="metodefind" value="FindMin"> FindMin</label>
+           	</div>
+            <div class="pilihan-metode">
+                <label><input type="radio" name="metode" value="iteratif"> Iteratif</label>
+                <label><input type="radio" name="metode" value="rekursif"> Rekursif</label>
+            </div>
+            <div class="png-refresh">
+                <a href="akanya.html" >
+                    <img src="refresh.png" alt="logo refresh" />
+                </a>
+            </div>
+            <button type="button" class="tombol-pencarian">Lakukan Pencarian!</button>
+    
+            <div class="hasil-container">
+                <h3>Hasil:</h3>
+                <div class="hasil-pencarian">
+                    <p>Liter : <span id="max-value">-</span></p>
+                    <p>Total Harga: <span id="total-price">-</span></p>
+                    <p>Kompleksitas algoritma: <span id="complexity"></span></p>
+                    <p>Runtime code: <span id="runtime">-</span></p>
+                    <div class="div-tombolgrafik1">
+                        <button class="btn-grafik1">
+                            <a href="grafik1.html" > Tampilkan Grafik</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class=div-tombolbefore>
+                <button class="btn-tombolbefore">
+                    <a href="beforeakanya.html" > Prev</a>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="kodejs.js"></script>
+</body>
+</html>

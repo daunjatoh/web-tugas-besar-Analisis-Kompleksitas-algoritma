@@ -1,0 +1,145 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(217, 242, 255);
+    height: 100%vh;
+    width: 100%vh;
+}
+
+.keseluruhanbody {
+    
+}
+
+.navigasibar {
+    background-color: rgb(192, 233, 255);
+    padding: 12px;
+    height: 100%;
+}
+
+.ul-kataNavBar {
+    display: flex;
+    justify-content: center;    
+    
+}
+
+
+.li-kataNavBar1 {
+    list-style-type: none;
+    padding: 10px;
+    margin: 15px;
+    background-color: rgb(104, 180, 238);
+    color: rgb(0, 0, 0);
+    border-radius: 15px;
+    font-size: 23px;
+    cursor: pointer;  
+}
+.li-kataNavBar1:hover {
+    transition: background-color 0.4s ease;
+    background-color: rgb(40, 101, 147);
+}
+
+.li-kataNavBar1 a {
+    color: black; 
+    text-decoration: none; 
+}
+
+.li-kataNavBar2 {
+    list-style-type: none;
+    padding: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin: 15px;
+    background-color: rgb(40, 101, 147);
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    text-decoration: underline;
+    font-size: 23px;
+    cursor: pointer;
+    
+}
+
+.li-kataNavBar2:hover {
+    transition: background-color 0.4s ease;
+    background-color: rgb(40, 101, 147);
+}
+
+.li-kataNavBar2 a {
+    color: rgb(255, 255, 255); 
+    text-decoration: none; 
+}
+
+.li-kataNavBar3 {
+    list-style-type: none;
+    padding: 10px;
+    margin: 15px;
+    background-color: rgb(104, 180, 238);
+    color: rgb(0, 0, 0);
+    border-radius: 15px;
+    font-size: 23px;
+    cursor: pointer;
+}
+.li-kataNavBar3:hover {
+    transition: background-color 0.4s ease;
+    background-color: rgb(40, 101, 147);
+}
+
+.div-kotakapp {
+    background-color: rgb(220, 220, 220); 
+    height: 520px;
+    width: 50%; 
+    margin: 20px auto;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    text-align: center;
+    position: relative; /* Penting untuk membuat elemen anak posisi relatif */
+}
+
+.judul-kotak {
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 17px;
+    color: black;
+}
+
+.div-kotakapp {
+    position: relative;
+    width: 1280px;
+    height: 560px;
+    background-color: rgb(220, 220, 220); 
+}
+
+.gambargrafik {
+    position: absolute;
+    scale: 55%;
+    margin-top: -130px;
+}
+
+.btn-tombolbefore {
+    position: absolute;
+    margin-top: 450px;
+    margin-left: -450px;
+    background-color: #0048b5; 
+    color: white;              
+    padding: 10px 15px;        
+    display: inline-block;     
+    font-size: 15px;           
+    cursor: pointer;           
+    border-radius: 10px;        
+}
+.btn-tombolbefore:hover {
+    transition: background-color 0.4s ease; 
+    background-color: rgb(0, 0, 0);
+}
+
+.btn-tombolbefore a {
+    color: rgb(255, 255, 255); 
+    text-decoration: none; 
+}
+
+.judul-kotak {
+    text-decoration: underline;
+}

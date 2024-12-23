@@ -1,0 +1,166 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(217, 242, 255);
+    height: 100%vh;
+    width: 100%vh;
+}
+
+.keseluruhanbody {
+
+}
+
+.navigasibar {
+    background-color: rgb(192, 233, 255);
+    padding: 12px;
+
+}
+
+.ul-kataNavBar {
+    display: flex;
+    justify-content: center;    
+    
+}
+
+
+.li-kataNavBar2 {
+    list-style-type: none;
+    padding: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: rgb(104, 180, 238);
+    margin: 15px;
+    color: rgb(0, 0, 0);
+    border-radius: 15px;
+    font-size: 23px;
+    cursor: pointer;  
+    text-decoration: none;
+}
+
+.li-kataNavBar2 a {
+    color: black; 
+    text-decoration: none; 
+}
+
+.li-kataNavBar2:hover {
+    transition: background-color 0.4s ease;
+    background-color: rgb(40, 101, 147);
+}
+.li-kataNavBar1 {
+    list-style-type: none;
+    padding: 10px;
+    margin: 15px;
+    background-color: rgb(40, 101, 147);
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    text-decoration: underline;
+    font-size: 23px;
+    cursor: pointer;
+    
+}
+
+.li-kataNavBar1 a {
+    color: rgb(255, 255, 255); 
+    text-decoration: none; 
+}
+
+.li-kataNavBar1:hover {
+    transition: background-color 0.4s ease;
+    background-color: rgb(40, 101, 147);
+}
+
+.li-kataNavBar3 {
+    list-style-type: none;
+    padding: 10px;
+    margin: 15px;
+    background-color: rgb(104, 180, 238);
+    color: rgb(0, 0, 0);
+    border-radius: 15px;
+    font-size: 23px;
+    cursor: pointer;
+}
+.li-kataNavBar3:hover {
+    transition: background-color 0.4s ease;
+    background-color: rgb(40, 101, 147);
+}
+
+.kotak {
+
+    position: fixed; 
+    bottom: 0;      
+    width: 100%;     
+    text-align: center; 
+    background-color: rgb(192, 233, 255); 
+    color: white;   
+    padding: 35px;   
+
+}
+
+.h1-kalimat {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    font-size: 40px;
+}
+
+.h2-kalimat {
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.div-h4 {
+    display: flex;
+    justify-content: center;
+}
+
+
+.h4-kalimat{
+    /* background-color: white; */
+    width: 30%; 
+    text-align: center;
+    margin-top: 10px;
+    font-size: larger;
+}
+
+.gambar {
+    display: flex;
+    justify-content: center; 
+    margin-top: 20px;  
+    margin-left: 25px;  
+  }
+
+.div-tombol {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.btn-tombolmulai {
+
+    margin-left: 720px;
+    margin-top: px;
+    background-color: hsl(0, 89%, 30%); 
+    color: white;   
+    font-weight: bolder;           
+    padding: 10px 15px;        
+    display: inline-block;     
+    font-size: 15px;           
+    cursor: pointer;           
+    border-radius: 10px;        
+}
+.btn-tombolmulai:hover {
+    transition: background-color 0.4s ease; 
+    background-color: rgb(0, 0, 0);
+}
+
+.btn-tombolmulai a {
+    color: rgb(255, 255, 255); 
+    text-decoration: none; 
+}

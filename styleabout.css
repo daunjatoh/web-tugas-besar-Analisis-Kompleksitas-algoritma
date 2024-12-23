@@ -1,0 +1,125 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(217, 242, 255);
+    height: 100vh;
+    width: 100vw;
+}
+
+.keseluruhanbody {
+}
+
+.navigasibar {
+    background-color: rgb(192, 233, 255);
+    padding: 12px;
+    height: 100%;
+}
+
+.ul-kataNavBar {
+    display: flex;
+    justify-content: center;
+}
+
+.li-kataNavBar1 {
+    list-style-type: none;
+    padding: 10px;
+    margin: 15px;
+    background-color: rgb(104, 180, 238);
+    color: rgb(0, 0, 0);
+    border-radius: 15px;
+    font-size: 23px;
+    cursor: pointer;  
+}
+.li-kataNavBar1:hover {
+    transition: background-color 0.4s ease;
+    background-color: rgb(40, 101, 147);
+}
+
+.li-kataNavBar1 a {
+    color: black; 
+    text-decoration: none; 
+}
+
+.li-kataNavBar3 {
+    list-style-type: none;
+    padding: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin: 15px;
+    background-color: rgb(40, 101, 147);
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    text-decoration: underline;
+    font-size: 23px;
+    cursor: pointer;
+    
+}
+
+.li-kataNavBar3:hover {
+    transition: background-color 0.4s ease;
+    background-color: rgb(40, 101, 147);
+}
+
+.li-kataNavBar3 a {
+    color: rgb(255, 255, 255); 
+    text-decoration: none; 
+}
+
+.li-kataNavBar2 {
+    list-style-type: none;
+    padding: 10px;
+    margin: 15px;
+    background-color: rgb(104, 180, 238);
+    color: rgb(0, 0, 0);
+    border-radius: 15px;
+    font-size: 23px;
+    cursor: pointer;
+}
+.li-kataNavBar2:hover {
+    transition: background-color 0.4s ease;
+    background-color: rgb(40, 101, 147);
+}
+.li-kataNavBar2 a {
+    color: black; 
+    text-decoration: none; 
+}
+.about-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+    margin: 20px;
+    text-align: center;
+}
+
+.about-section h1 {
+    font-size: 3rem;
+    color: rgb(40, 101, 147);
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    font-size: 1.5rem;
+    line-height: 1.8;
+    color: rgb(70, 70, 70);
+    max-width: 800px;
+}
+
+.footer {
+    text-align: center;
+    background-color: rgb(192, 233, 255);
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer p {
+    font-size: 0.9rem;
+    color: rgb(104, 104, 104);
+}

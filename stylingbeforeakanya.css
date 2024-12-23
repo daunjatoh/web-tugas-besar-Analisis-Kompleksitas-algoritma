@@ -1,0 +1,198 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(217, 242, 255);
+    height: 100%vh;
+    width: 100%vh;
+}
+
+.keseluruhanbody {
+    
+}
+
+.navigasibar {
+    background-color: rgb(192, 233, 255);
+    padding: 12px;
+    height: 100%;
+}
+
+.ul-kataNavBar {
+    display: flex;
+    justify-content: center;    
+    
+}
+
+
+.li-kataNavBar1 {
+    list-style-type: none;
+    padding: 10px;
+    margin: 15px;
+    background-color: rgb(104, 180, 238);
+    color: rgb(0, 0, 0);
+    border-radius: 15px;
+    font-size: 23px;
+    cursor: pointer;  
+}
+.li-kataNavBar1:hover {
+    transition: background-color 0.4s ease;
+    background-color: rgb(40, 101, 147);
+}
+
+.li-kataNavBar1 a {
+    color: black; 
+    text-decoration: none; 
+}
+
+.li-kataNavBar2 {
+    list-style-type: none;
+    padding: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin: 15px;
+    background-color: rgb(40, 101, 147);
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    text-decoration: underline;
+    font-size: 23px;
+    cursor: pointer;
+    
+}
+
+.li-kataNavBar2:hover {
+    transition: background-color 0.4s ease;
+    background-color: rgb(40, 101, 147);
+}
+
+.li-kataNavBar2 a {
+    color: rgb(255, 255, 255); 
+    text-decoration: none; 
+}
+
+.li-kataNavBar3 {
+    list-style-type: none;
+    padding: 10px;
+    margin: 15px;
+    background-color: rgb(104, 180, 238);
+    color: rgb(0, 0, 0);
+    border-radius: 15px;
+    font-size: 23px;
+    cursor: pointer;
+}
+.li-kataNavBar3:hover {
+    transition: background-color 0.4s ease;
+    background-color: rgb(40, 101, 147);
+}
+
+.div-kotakapp {
+    background-color: rgb(220, 220, 220); 
+    height: 520px;
+    width: 50%; 
+    margin: 20px auto;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    text-align: center;
+    position: relative; /* Penting untuk membuat elemen anak posisi relatif */
+}
+
+.judul-kotak {
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 17px;
+    color: black;
+}
+
+.h2-pilih {
+    background-color: rgb(255, 255, 255);
+    display: block;
+    margin: 10px auto;
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    width: 70%;
+}
+
+.pilihan-metode {
+    margin: 10px;
+    transform: scale(1.2);
+}
+
+.tombol-pencarian {
+    
+    background-color: rgb(38, 149, 230);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.tombol-pencarian:hover {
+    background-color: rgb(25, 104, 161);
+}
+
+/* Container utama */
+.hasil-container {
+    margin: 20px auto;
+    padding: 20px;
+    width: 400px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+.hasil-container h3 {
+    text-align: left;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Gaya hasil pencarian */
+.hasil-pencarian {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #333;
+}
+
+.hasil-pencarian p {
+    margin: 10px 0;
+}
+
+.hasil-pencarian span {
+    font-weight: bold;
+    font-size: 20px;
+    color: #000;
+}
+
+/* Tampilan untuk liter tertinggi */
+#max-value {
+    font-size: 28px;
+    color: #000;
+}
+
+.png-refresh {
+    position: absolute;
+    top: -200px; /* Atur jarak dari atas */
+    left: -200px; /* Atur jarak dari kiri */
+    transform: scale(0.2); /* Skala gambar */
+}
+
+.png-refresh:hover{
+    transition: ;
+}
+
+.h2-pilih {
+    font-weight: bolder;
+    color: black
+}
+
+.opsi-dis {
+    font-weight: bolder;
+    color: #adadad;
+}
